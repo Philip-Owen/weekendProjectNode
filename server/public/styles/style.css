@@ -1,0 +1,94 @@
+body {
+  background-color: #112C61;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+th {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+input[type=text], input[type=number] {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #dc3545;
+  background-color: #1F52B2;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+tr:hover {
+  background-color: #2C95FF;
+}
+
+#noHighlight:hover {
+  background-color: #112C61;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFFFFF;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+#main-head {
+  background-color: #1F52B2;
+  padding-top: 30px;
+}
+
+#titlName {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#titleDesc {
+  font-size: 30px;
+}
+
+#companyTitle {
+  padding-left: 55px;
+}
+
+#employeeInput {
+  margin: 0 auto;
+  padding-bottom: 35px;
+  padding-left: 50px;
+}
+
+#employeeTable {
+  margin-top: 50px;
+}
+
+.btn-primary {
+  background-color: #2C95FF;
+  width: 200px;
+}
